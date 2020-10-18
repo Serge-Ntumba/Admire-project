@@ -1,0 +1,825 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a {
+      text-decoration: none;
+      color: rgba(106, 106, 106, 1);
+  }
+
+  li {
+      list-style: none;
+      margin-top: 35px;
+      margin-bottom: 25px;
+  }
+
+  /* working with the nav bar*/
+
+  #nav-bar-container {
+      background-color: rgba(255,255,255,1);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; 
+      width: 100%;
+      border-width: 1px;
+      border-color: rgba(227,64,64,1);
+      height: 90px;
+  }
+
+  #logo {
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: rgba(43, 204, 219, 1);
+      line-height: 28px;
+      margin-top: 31px;
+      margin-bottom: 31px;
+  }
+
+  #nav-menu {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;  
+      font-weight: 400;
+      color: rgba(106, 106, 106, 1);
+      font-family: Catamaran;
+      font-size: 18px;
+      line-height: 30px;
+ 
+  }
+
+  /* working with the banner */
+
+  #banner {
+     width: 96%;
+     margin-left: 2%;
+     margin-right: 2%;
+     background: linear-gradient(0deg, rgba(246, 246, 246, 0.22), rgba(246, 246, 246, 0.22)), #E5E5E5;
+     position: relative;
+  }
+
+
+  #banner img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+   #look {
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    font-family: Catamaran;
+    font-weight: 300;
+    line-height: 40px;
+    color: #FFFFFF;
+    
+  }
+
+  #look #look1 {
+      text-align: justify;
+      width: 530px;
+    background-color: rgba(43, 204, 219, 1);
+    font-size: 55px;
+  }
+
+  #look #look2 {
+    margin-top: -50px;
+    background-color: rgba(43, 204, 219, 1);
+    width: 230px;
+    font-size: 55px;
+  }
+
+
+
+
+  #banner a {
+    position: absolute;
+    top: 240px;
+    left: 150px;
+    font-family: Catamaran;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    width: 155px;
+    height: 35px;
+    background: linear-gradient(90deg, #2BCCDB 0%, #0BB4C4 100%);
+    box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.22);
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+
+/* working with the count section */
+
+.counts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#count1 {
+    display: flex;
+}
+
+#count1 h2 {
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(53,53,53,1);
+}
+
+#count1 p {
+    font-family: Catamaran;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgba(106,106,106,1);
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+#count2 {
+    display: flex;
+}
+
+#count2 h2 {
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(53,53,53,1);
+}
+
+#count2 p {
+    font-family: Catamaran;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgba(106,106,106,1);
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+
+#count3 {
+    display: flex;
+}
+
+#count3 h2 {
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgba(53,53,53,1);
+}
+
+#count3 p {
+    font-family: Catamaran;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgba(106,106,106,1);
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+/* working with advantages*/ 
+
+#adv-img1 img {
+    width: 480px;
+    height: 600px;
+}
+
+#adv-img2 img {
+   position: absolute;
+   top: -550px;
+   left: 180px;
+   width: 490px;
+   height: 330px;
+}
+
+#adv-text  {
+    font-family: Catamaran;
+    font-weight: 300;
+    position: absolute;
+    left: 730px;
+    width: 490px;
+
+}
+
+#adv-text h2 {
+    color: #353535;
+    font-size: 50px;
+}
+
+#adv-text p {
+    font-size: 18px;
+    line-height: 35px;
+    color: #6A6A6A;
+}
+
+#adv-img h2 {
+    position: absolute;
+    left: 400px;
+    top: 175px;
+    transform: rotate(-69.59deg);
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 28px;
+
+}
+
+#adv-img p {
+    position: absolute;
+    top: 140px;
+    left: -100px;  
+    transform: rotate(-90deg);
+    width: 330px;
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.69);
+    text-align: center;
+}
+  
+
+#behind {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#man {
+   
+    position: absolute;
+    right: 165px;
+    bottom: 0px;
+   }
+
+#man img {
+   height: 320px;
+}
+
+
+
+#behind img {
+  height: 190px;
+ }
+
+
+#cont {
+    position: absolute;
+    left: 150px;
+    top: -15px;
+    font-family: Catamaran;
+    font-weight: 300;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#cont1 {
+   
+    width: 560px;
+    background-color: rgba(43, 204, 219, 1);
+    font-size: 55px;
+}
+
+#cont2 {
+   margin-top: -47px;
+    background-color: rgba(43, 204, 219, 1);
+    width: 380px;
+    font-size: 55px;
+}
+
+
+
+
+
+#em-phon {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#em-phon p {
+    color: rgba(106, 106, 106, 1);
+    border-bottom: 1px solid rgba(43, 204, 219, 1);
+    padding-bottom: 13px;
+    width: 160px;
+    margin-top: 13px;
+}
+
+#em-phon button {
+    width: 160px;
+    background: linear-gradient(90deg, #2BCCDB 0%, #0BB4C4 100%);
+    box-shadow: 0px 6px 10px #CDCDCD;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+#em-phon p img {
+    margin-right: 10px;
+    width: 15px;
+    height: 12px;
+}
+
+/* how it works */
+
+#col-div {
+   display: flex;
+   flex-direction: column;
+}
+
+#glob {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 300px;
+    position: relative;
+}
+
+#bk {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#bk img {
+    width: 400px;
+    height: 215px;
+  }
+
+#girl {
+    position: absolute;
+    left: 130px;
+    top: -70px;
+}
+
+#girl img {
+   width: 400px;
+   height: 370px;
+ 
+}
+
+#glob-right {
+    position: absolute;
+    left: 600px;
+    font-family: Catamaran;
+    font-weight: 300;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#glob-right1 {
+   
+    width: 470px;
+    background-color: rgba(43, 204, 219, 1);
+    font-size: 55px;
+}
+
+#glob-right2 {
+   margin-top: -47px;
+    background-color: rgba(43, 204, 219, 1);
+    width: 280px;
+    font-size: 55px;
+}
+
+#glob-right3 {
+    color: #353535;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 43px;
+    margin-top: -40px;
+}
+
+#glob-right4 {
+    margin-top: -15px;
+    font-family: Catamaran;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    width: 155px;
+    height: 35px;
+    background: linear-gradient(90deg, #2BCCDB 0%, #0BB4C4 100%);
+    box-shadow: 0px 6px 10px rgba(37, 37, 37, 0.22);
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+
+/* working with cases */
+
+#title-c {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 125px;
+    color: #353535;
+    margin-left: 150px;
+}
+
+#cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 85px;
+}
+
+#pict img {
+    width: 715px;
+    height: 320px;
+}
+
+#comp-ny {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(106, 106, 106, 0.35);
+    margin-top: -30px;
+    position: relative;
+    }
+
+    #comp-ny img{
+        position: absolute;
+        top: 48px;
+        left: 200px;
+        width: 180px;
+    }
+
+    #comp-ny ul li {
+        margin-top: -4px;
+    }
+
+    #next {
+        position: relative;
+    }
+
+    #next p {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 50px;
+        color: #353535;
+    }
+
+    #next a {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration-line: underline;
+        color: #0BB4C4;
+    }
+
+
+    #next img {
+        height: 320px;
+
+    }
+
+    #beeline {
+        display: flex;
+        flex-direction: column;
+        width: 715px;
+        margin-left: 365px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #6A6A6A;
+    }
+
+
+    #b-logo img {
+        width: 150px;
+        margin: 30px 0px;
+    }
+
+    /* workimg with partners */ 
+
+    #title-part {
+      
+        margin-top: 40px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 120px;
+        color: #353535;
+        margin-left: 160px;
+        margin-bottom: -20px;
+    }
+
+
+    *#logo-parts img {
+      width: 165px;
+     }
+
+     #get-price {
+        position: absolute;
+        left: 150px;
+        font-family: Catamaran;
+        font-weight: 300;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+    
+    #get1 {
+       
+        width: 455px;
+        background-color: rgba(43, 204, 219, 1);
+        font-size: 55px;
+    }
+    
+    #get2 {
+        margin-top: -47px;
+        background-color: rgba(43, 204, 219, 1);
+        width: 160px;
+        font-size: 55px;
+    }
+
+    /* about */ 
+
+    #title-about {
+        
+        margin-top: 80px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 120px;
+        color: #353535;
+        margin-left: 160px;
+    }
+
+    #service {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 80px;
+    }
+
+    #epg-t {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        color: #E34040;
+    }
+
+    #epg-p {
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18.3px;
+        line-height: 38px;        
+        color: rgba(106, 106, 106, 0.8);
+    }
+
+    #building img {
+        width: 490px;
+        height: 330px;
+    }
+
+    #item-end img {
+        font-family: Catamaran;
+        font-style: normal;
+        height: 300px;
+        text-align: center;
+        padding-right: 25px;
+        margin-top: 15px;
+    }   
+    
+    #title-gl {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        color: #E34040;
+        margin-left: 160px;
+        margin-top: 30px;
+        margin-bottom: 30;
+    }
+
+    #img-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 224px);
+        grid-template-rows: repeat(3, 200px)
+    }
+
+    #img-grid img {
+         width: 224px;
+         height: 200px;
+    }
+
+    #care {
+        grid-column: 2/5;
+        background-color: #2BCCDB;
+        color: #FFFFFF;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 56px;
+        line-height: 60px;
+        padding-left: 40px;
+    }
+
+    #rev-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        color: #E34040;
+        margin-left: 160px;
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+
+    #rev {
+        display: flex;
+        flex-direction: row;  
+        margin-left: 160px;    
+    }
+
+    #rev1 img {
+        width: 250px;
+        height: 170px;
+        border-right: 1px solid #CDCDCD;
+        padding-right: 60px;
+    }
+
+    #rev2 {
+        width: 450px;
+        height: 150px;
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6A6A6A;
+        padding: 20px 60px;
+    }
+
+    #rev3 img {
+        width: 140px;
+        height: 150px;
+        border-right: 1px solid #CDCDCD;
+        padding-right: 60px;
+    }
+
+    /* offer */
+
+
+    #offer {
+        position: absolute;
+        left: 150px;
+        top: -15px;
+        font-family: Catamaran;
+        font-weight: 300;
+        line-height: 45px;
+        color: #FFFFFF;
+        
+    }
+    
+    #offer1 {
+       
+        width: 560px;
+        background-color: rgba(43, 204, 219, 1);
+        font-size: 55px;
+    }
+    
+    #offer2 {
+        color: #353535;
+       margin-top: -47px;
+        width: 280px;
+        font-size: 36px;
+    }
+  /* contact */
+
+  #contact-title {
+    margin-top: 80px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 120px;
+    color: #353535;
+    margin-left: 160px;
+  }
+
+  #footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 230px;
+  }
+
+  #address {
+      display: flex;
+      flex-direction: column;
+      font-family: Catamaran;
+      font-style: normal;
+  }
+
+  #city {
+     color: #6A6A6A;
+     font-size: 20px;
+     line-height: 35px;
+  }
+
+   #num {
+    color: #6A6A6A;
+    font-size: 35px;
+    line-height: 45px;
+ }
+
+  #mail {
+    color: #E34040;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  #social-m {
+    color: #353535;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 80px 0px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-size: 19px;
+  }
+
+
+
+  #form-title {
+      color: #0BB4C4;
+      font-size: 28px;
+      line-height: 18px;
+  }
+
+  #form {
+      width: 450px;
+      margin-top: 30px;
+  }
+
+
+  #form button {
+    margin-top: 30px;
+    width: 160px;
+    background: linear-gradient(90deg, #2BCCDB 0%, #0BB4C4 100%);
+    box-shadow: 0px 6px 10px #CDCDCD;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.69);
+  }
+
+  #form input {
+      border: 0px ;
+      width: 450px;
+      border-bottom: solid 1px  #0BB4C4 ;
+      margin-bottom: 30px;
+      padding-bottom: 7px;
+  }
+
+
+ 
+
+
+   
+
+  
+
+  
+  
